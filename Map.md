@@ -32,10 +32,10 @@ cases:
           An <code>Object</code> has a prototype, so it contains default keys
           that could collide with your own keys if you're not careful.
         </p>
-        <div class="notecard note">
+        <div>
           <p>
             <strong>Note:</strong> As of ES5, this can be bypassed by using
-            {{jsxref("Object.create", "Object.create(null)")}},
+            <code>Object.create(null)</code>,
             but this is seldom done.
           </p>
         </div>
@@ -150,7 +150,7 @@ cases:
       </td>
     </tr>
     <tr>
-      <th scope="row">Performance</th>
+      <th scope="row">Performance ⭐</th>
       <td>
         <p>
           Performs better in scenarios involving frequent additions and removals
