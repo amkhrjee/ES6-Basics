@@ -18,7 +18,7 @@ function Store() {
   };
   return {
     add: function (category) {
-      var items = [].splice.call(arguments, 1);
+      var items = [].slice.call(arguments, 1);
       console.log(items);
     },
     aisle: aisle,
