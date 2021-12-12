@@ -20,6 +20,9 @@ function Store() {
     add: function (category) {
       var items = [].slice.call(arguments, 1);
       console.log(items);
+      items.forEach((value, index, array) => {
+        aisle[category].push(value);
+      });
     },
     aisle: aisle,
   };

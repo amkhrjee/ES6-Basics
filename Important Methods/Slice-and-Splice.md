@@ -25,7 +25,7 @@ The `splice()` method helps in removing and/or adding stuff to an array.
 let users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"];
 
 users.splice(1, 4, "Hi", "Bye");
-console.log(users);
+console.log(users); //Ted, Hi, Bye, Sod
 ```
 
 - Here the **first argument** `1` = determines where to stop -> so it counts 0 and 1, then stops at 1
